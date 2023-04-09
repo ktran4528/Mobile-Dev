@@ -88,13 +88,16 @@ fun MainActivityContent() {
             horizontalArrangement = Arrangement.Center
         ) {
             Comp1 {
-                randomText.value = "1"
+                randomText.value = "COMP SOMETHING1\n " +
+                        "DESCRIPTION:\n"
             }
             Comp2 {
-                randomText.value = "2"
+                randomText.value = "COMP SOMETHING2\n" +
+                        " DESCRIPTION:\n"
             }
             Comp3 {
-                randomText.value = "3"
+                randomText.value = "COMP SOMETHING3\n" +
+                        " DESCRIPTION:\n"
             }
         }
         if (randomText.value.isNotEmpty()) {
